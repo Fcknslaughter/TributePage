@@ -1,0 +1,87 @@
+body {
+background-color: powderblue;
+display: flex;
+flex-flow: row wrap;
+}
+
+h1 {
+  text-align: center;
+
+}
+.li1:hover {
+  color: #D22779;
+  transition-delay: 1s;
+  transition: .55s ease-in-out;
+}
+.li2:hover {
+  color: #D22779;
+  transition-delay: 1s;
+  transition: .55s ease-in-out;
+}
+.li3:hover {
+  color: #D22779;
+  transition-delay: 1s;
+  transition: .55s ease-in-out;
+}
+.li4:hover {
+  color: #D22779;
+  transition-delay: 1s;
+  transition: .55s ease-in-out;
+}
+.li5:hover {
+  color: #D22779;
+  transition-delay: 1s;
+  transition: .55s ease-in-out;
+}
+/* IDS */
+#img-div{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: center;
+}
+#image {
+  max-width: 100%;
+  height: auto;
+  margin: 10px;
+  border-radius: 10%;
+  box-shadow: 0 0 5px 3px black;
+  transition: opacity 1s ease-in-out;
+}
+
+#tribute-info {
+text-align: center;
+line-height: 1.5;
+display: flex;
+justify-content: space-around;
+flex-direction: column;
+background-color: #76BA99;
+box-shadow: 0 0 5px 3px;
+border-radius: 5%;
+transition: 0s background-color;
+transition: 1s ease-in-out;
+}
+
+#tribute-info:hover {
+  background-color: #D4F6CC;
+  transition-delay:1s;
+  transition: .55s ease-in-out;
+
+}
+#tribute-link {
+  text-align: center;
+  transition: 0s background-color;
+  transition: 2s ease-in-out;
+
+
+}
+#tribute-link:hover {
+  color: #D22779;
+  transition-delay: 1s;
+  transition: .55s ease-in-out;
+
+}
+#img-caption {
+  padding: 5px;
+  margin: 5px;
+}
